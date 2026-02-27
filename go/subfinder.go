@@ -1,7 +1,7 @@
 /*
  * SubFinder - Fast Subdomain Enumeration Tool
- * Author: bad-antics | GitHub: bad-antics | Discord: discord.gg/killers
- * License: NREC-XXX (Get key at discord.gg/killers)
+ * Author: bad-antics | GitHub: bad-antics | Discord: x.com/AnonAntics
+ * License: NREC-XXX (Get key at x.com/AnonAntics)
  *
  *     ▓█████▄  ██▀███   ██▓ ██▓███       ██████  █    ██  ▄▄▄▄    █████▒
  *     ▒██▀ ██▌▓██ ▒ ██▒▓██▒▓██░  ██▒   ▒██    ▒  ██  ▓██▒▓█████▄ ▓██   ▒ 
@@ -421,7 +421,7 @@ func main() {
 
 	if *version {
 		fmt.Printf("SubFinder v%s\n", VERSION)
-		fmt.Println("github.com/bad-antics | discord.gg/killers")
+		fmt.Println("github.com/bad-antics | x.com/AnonAntics")
 		return
 	}
 
@@ -440,7 +440,7 @@ func main() {
 		fmt.Println("  subfinder -d example.com")
 		fmt.Println("  subfinder -d example.com -w subdomains.txt -o results.txt")
 		fmt.Println("  subfinder -d example.com -r -json -o results.json")
-		fmt.Println("\nGet premium at discord.gg/killers")
+		fmt.Println("\nGet premium at x.com/AnonAntics")
 		return
 	}
 
